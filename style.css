@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .animated-bg {
+    width: 100%;
+    height: 250vh; /* Adjust as needed */
+    background: linear-gradient(45deg,#FA9203, #ee7752,  #23a6d5, #23d5ab);
+    background-size: 400% 400%; /* For the animated effect */
+    animation: gradientAnimation 30s ease-in infinite; /* Change duration and other values as needed */
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 5%;
+    }
+    50% {
+      background-position: 10% 50%;
+    }
+    100% {
+      background-position: 10% 50%;
+    }
+  }
+
+  h1 {font-family: 'Great Vibes', cursive;}
+  .front-quote  {font-family: 'Great Vibes', cursive; font-size:36px}
+  .img1 {border-radius: 75%; border: 5px solid black;}
+  .AM-1{font-family: 'Great Vibes', cursive; font-size:36px; font-weight: 800;}
+  .AM-2{font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;font-weight: 600;display: grid;grid-template-columns: 400px;justify-content: center;}
+  .footer {background-color: slategrey; height: 10vh;}
