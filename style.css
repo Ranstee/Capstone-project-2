@@ -29,5 +29,5 @@ body, html {
   .img1 { border-radius: 75%; border: 5px solid black;align-self: center;}
   .AM-1{font-family: 'Great Vibes', cursive; font-size:36px; font-weight: 800;}
   .AM-2{font-family: 'Great Vibes', cursive;
-    font-family: 'Roboto', sans-serif;font-weight: 600;display: grid;grid-template-columns: 400px;justify-content: center;}
+    font-family: 'Roboto', sans-serif;font-weight: 600;display: grid;grid-template-columns: 400px;}
   .footer {background-color: slategrey; height: 10vh;}
