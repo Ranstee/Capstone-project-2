@@ -26,7 +26,7 @@ body, html {
 
   h1 {font-family: 'Great Vibes', cursive;}
   .front-quote  {font-family: 'Great Vibes', cursive; font-size:36px}
-  .img1 {border-radius: 75%; border: 5px solid black;}
+  .img1 {display:grid; border-radius: 75%; border: 5px solid black;justify-content: center;}
   .AM-1{font-family: 'Great Vibes', cursive; font-size:36px; font-weight: 800;}
   .AM-2{font-family: 'Great Vibes', cursive;
     font-family: 'Roboto', sans-serif;font-weight: 600;display: grid;grid-template-columns: 400px;justify-content: center;}
