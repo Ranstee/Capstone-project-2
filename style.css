@@ -1,11 +1,11 @@
 body, html {
     margin: 0;
     height: 100%;
-    background-color: #23a6d5;
+    background-color: sandybrown;
   }
   
   .animated-bg {
-    width: 100%;
+    width: 100vh;
     height: 250vh; /* Adjust as needed */
     background: linear-gradient(45deg,#FA9203, #ee7752,  #23a6d5, #23d5ab);
     background-size: 400% 400%; /* For the animated effect */
